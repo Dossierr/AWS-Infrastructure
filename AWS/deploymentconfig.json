@@ -13,5 +13,9 @@
   "taskprocessor": {
     "image": ":dossierr.taskprocessor.latest",
     "ports": {"8080": "HTTP"}
+    },
+  "gptengine": {
+    "image": ":dossierr.gptengine.latest",
+    "ports": {"5000": "HTTP"}
     }
   }
