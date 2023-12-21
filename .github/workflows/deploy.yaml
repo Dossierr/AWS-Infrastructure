@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: true
 jobs:  
   deploylatestcontainers:
-      name: 🚧 Launchting the latest containers 
+      name: 🚧 Launching the latest containers 
       runs-on: ubuntu-latest
       steps:
         - name: 🗂  Getting code from Github
