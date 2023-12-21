@@ -5,5 +5,9 @@
 "nginx": {
       "image": ":dossierr.nginx.latest",
       "ports": {"80": "HTTP"}
+    },
+  "taskprocessor": {
+      "image": ":dossierr.taskprocessor.latest",
+      "ports": {"8080": "HTTP"}
     }
   }
