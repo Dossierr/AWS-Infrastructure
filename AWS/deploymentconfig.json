@@ -1,4 +1,4 @@
-{"django": {
+{"Webserver": {
     "image": ":dossierr.django.latest",
     "ports": {"8000": "HTTP"}
   },
@@ -6,7 +6,7 @@
     "image": ":dossierr.redis.latest",
     "ports": {"6379": "HTTP"}
     },
-  "nginx": {
+  "reverseproxy": {
     "image": ":dossierr.nginx.latest",
     "ports": {"80": "HTTP"}
     },
