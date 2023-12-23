@@ -1,21 +1,21 @@
-{"webserver": {
-    "image": ":dossierr.django.latest",
-    "ports": {"8000": "HTTP"}
+{"django": {
+  "image": ":dossierr.django.latest",
+  "ports": {"8000": "HTTP"}
+},
+"redis": {
+  "image": ":dossierr.redis.latest",
+  "ports": {"6379": "HTTP"}
   },
-  "redis": {
-    "image": ":dossierr.redis.latest",
-    "ports": {"6379": "HTTP"}
-    },
-  "reverseproxy": {
-    "image": ":dossierr.nginx.latest",
-    "ports": {"80": "HTTP"}
-    },
-  "taskprocessor": {
-    "image": ":dossierr.taskprocessor.latest",
-    "ports": {"8080": "HTTP"}
-    },
-  "gptengine": {
-    "image": ":dossierr.gptengine.latest",
-    "ports": {"5000": "HTTP"}
-    }
+"nginx": {
+  "image": ":dossierr.nginx.latest",
+  "ports": {"80": "HTTP"}
+  },
+"taskprocessor": {
+  "image": ":dossierr.taskprocessor.latest",
+  "ports": {"8080": "HTTP"}
+  },
+"gptengine": {
+  "image": ":dossierr.gptengine.latest",
+  "ports": {"5000": "HTTP"}
   }
+}
