@@ -1,5 +1,5 @@
 {
-    "containerName": "nginxreverseproxy",
+    "containerName": "reverseproxy",
     "containerPort": 80,
     "healthCheck": {
       "healthyThreshold": 2,
