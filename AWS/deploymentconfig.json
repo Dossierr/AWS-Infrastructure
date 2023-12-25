@@ -10,9 +10,13 @@
   "image": ":dossierr.nginx.latest",
   "ports": {"80": "HTTP"}
   },
-"taskprocessor": {
+"taskprocessor2": {
   "image": ":dossierr.taskprocessor.latest",
   "ports": {"8080": "HTTP"}
+  },
+ "taskprocessor1": {
+  "image": ":dossierr.taskprocessor.latest",
+  "ports": {"8081": "HTTP"}
   },
 "gptengine": {
   "image": ":dossierr.gptengine.latest",
